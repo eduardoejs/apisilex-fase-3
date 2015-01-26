@@ -18,7 +18,3 @@ http://127.0.0.1:8080/fixtures.php
 
 http://127.0.0.1:8080
 
->4. *Para ter acesso aos dados de cada produto separado digite a URL seguido do ID de cada cliente no array:*
-
-http://127.0.0.1:8080/clientes/1
-
