@@ -1,0 +1,22 @@
+{
+    "name" : "Modulo API e SILEX",
+    "authors" : [
+        {
+            "name" : "Eduardo Silva",
+            "email" : "eduardo.ejs@hotmail.com"
+        }
+    ],
+    "config":{
+        "bin-dir":"bin/"
+    },
+    "require" : {
+        "silex/silex": "~1.2",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "symfony/twig-bridge": "2.1.*"
+    },
+    "autoload":{
+        "psr-4":{
+            "EJS\\" : "src/EJS/"
+        }
+    }
+}
